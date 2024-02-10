@@ -24,7 +24,7 @@ const artworks = [
       id: 4,
       title: "Artwork 4",
       price: "Price 4",
-      image: "https://raw.githubusercontent.com/Flissel/Jody-Website/master/images/img-0.jpg",
+      image: "https://raw.githubusercontent.com/Flissel/Jody-Website/master/images/img-0.png",
       description: "Description for Artwork 4."
     },
     {
@@ -73,64 +73,50 @@ const artworks = [
       id: 11,
       title: "Artwork 11",
       price: "Price 11",
-      image: "https://raw.githubusercontent.com/Flissel/Jody-Website/master/images/img-15.png",
+      image: "https://raw.githubusercontent.com/Flissel/Jody-Website/master/images/img-2.png",
       description: "Description for Artwork 11."
     },
     {
       id: 12,
       title: "Artwork 12",
       price: "Price 12",
-      image: "https://raw.githubusercontent.com/Flissel/Jody-Website/master/images/img-2.png",
+      image: "https://raw.githubusercontent.com/Flissel/Jody-Website/master/images/img-3.png",
       description: "Description for Artwork 12."
     },
     {
       id: 13,
       title: "Artwork 13",
       price: "Price 13",
-      image: "https://raw.githubusercontent.com/Flissel/Jody-Website/master/images/img-3.png",
+      image: "https://raw.githubusercontent.com/Flissel/Jody-Website/master/images/img-5.png",
       description: "Description for Artwork 13."
     },
     {
       id: 14,
       title: "Artwork 14",
       price: "Price 14",
-      image: "https://raw.githubusercontent.com/Flissel/Jody-Website/master/images/img-4.png",
+      image: "https://raw.githubusercontent.com/Flissel/Jody-Website/master/images/img-6.png",
       description: "Description for Artwork 14."
     },
     {
       id: 15,
       title: "Artwork 15",
       price: "Price 15",
-      image: "https://raw.githubusercontent.com/Flissel/Jody-Website/master/images/img-5.png",
+      image: "https://raw.githubusercontent.com/Flissel/Jody-Website/master/images/img-7.png",
       description: "Description for Artwork 15."
     },
     {
       id: 16,
       title: "Artwork 16",
       price: "Price 16",
-      image: "https://raw.githubusercontent.com/Flissel/Jody-Website/master/images/img-6.png",
+      image: "https://raw.githubusercontent.com/Flissel/Jody-Website/master/images/img-8.png",
       description: "Description for Artwork 16."
     },
     {
       id: 17,
       title: "Artwork 17",
       price: "Price 17",
-      image: "https://raw.githubusercontent.com/Flissel/Jody-Website/master/images/img-7.png",
-      description: "Description for Artwork 17."
-    },
-    {
-      id: 18,
-      title: "Artwork 18",
-      price: "Price 18",
-      image: "https://raw.githubusercontent.com/Flissel/Jody-Website/master/images/img-8.png",
-      description: "Description for Artwork 18."
-    },
-    {
-      id: 19,
-      title: "Artwork 19",
-      price: "Price 19",
       image: "https://raw.githubusercontent.com/Flissel/Jody-Website/master/images/img-9.png",
-      description: "Description for Artwork 19."
+      description: "Description for Artwork 17."
     },
 ];
 

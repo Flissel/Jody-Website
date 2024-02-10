@@ -18,7 +18,7 @@ def rename_images_recursively(directory, prefix="img", start=0):
 # Example usage (replace '/path/to/imagefolder' with the actual path to your image folder)
 # Note: This script should be run locally where you have access to the file system.
 directory_path = r"jodys-website\images"
-rename_images_recursively(directory_path)
+#rename_images_recursively(directory_path)
 # Use your specific path to the images folder
 image_directory = r"jodys-website\images"
 image_files = os.listdir(image_directory)
@@ -39,7 +39,7 @@ for idx, image in enumerate(image_files, start=1):
 
 # Close the array and the file content
 artworks_js_content += "];\n\nexport default artworks;"
-
+os.remove(r"jodys-website\src\data\artworks.js")
 # Optionally, write the content to a file called artworks.js
 with open(r"jodys-website\src\data\artworks.js", "w") as file:
     file.write(artworks_js_content)
