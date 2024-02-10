@@ -2,18 +2,16 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../styles/Header.css';
 
 function Header() {
   return (
-    <header>
-      <nav>
-        <ul>
-          <li><Link to="/shop">Shop</Link></li>
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
-        </ul>
-      </nav>
-    </header>
+    <div className="navbar">
+      <Link to="/shop" className="active">Shop</Link>
+      <Link to="/about">About</Link>
+      <Link to="/contact">Contact</Link>
+      {/* Add more links as needed */}
+    </div>
   );
 }
 

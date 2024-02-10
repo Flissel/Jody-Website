@@ -1,0 +1,48 @@
+/* Shop.css */
+.shop {
+    text-align: center;
+    margin: 40px;
+  }
+  
+  .artwork img {
+    max-width: 100%; /* Ensures the image is responsive and does not overflow its container */
+    max-height: 300px; /* Adjust this value to control how large the images can be */
+    object-fit: cover; /* This ensures the image covers the area, adjusting the aspect ratio */
+    border-radius: 8px; /* Optional: Adds rounded corners to your images */
+  }
+  
+  .artwork {
+    border: 1px solid #ddd; /* Existing style, if any, for border */
+    padding: 10px; /* Existing style, if any, for padding */
+    text-align: center; /* Center the text elements like title and price */
+  }
+  
+  .artworks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust the minmax() for controlling the size */
+    gap: 20px; /* Adjust space between grid items */
+    padding: 20px; /* Padding around the entire grid */
+  }
+  
+  .artwork h2 {
+    color: #333;
+    font-size: 1.5em;
+  }
+  
+  .artwork p {
+    color: #666;
+  }
+  .artwork button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .artwork price-and-shop {
+    display: flex;
+  }
+  .artwork button:hover {
+    background-color: #555;
+  }
