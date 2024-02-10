@@ -10,7 +10,7 @@ def rename_images_recursively(directory, prefix="img", start=0):
         for file in files:
             if file.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp')):
                 old_path = os.path.join(root, file)
-                new_path = os.path.join(root, f"{prefix}_{start}{os.path.splitext(file)[1]}")
+                new_path = os.path.join(root, f"{prefix}-{start}{os.path.splitext(file)[1]}")
                 os.rename(old_path, new_path)
                 print(f"Renamed {old_path} to {new_path}")
                 start += 1
